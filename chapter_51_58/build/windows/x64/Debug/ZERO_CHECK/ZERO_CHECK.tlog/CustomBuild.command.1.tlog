@@ -1,0 +1,10 @@
+^C:\USERS\ADMINISTRATOR\DOCUMENTS\CODE\VSCODE\DART\FLUTTER_FUNDAMENTAL_CHAPTER_51_60\BUILD\WINDOWS\CMAKEFILES\B683F0377CDBA9FEF6B839552060D247\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/Documents/Code/VScode/Dart/flutter_fundamental_chapter_51_60/windows -BC:/Users/Administrator/Documents/Code/VScode/Dart/flutter_fundamental_chapter_51_60/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Administrator/Documents/Code/VScode/Dart/flutter_fundamental_chapter_51_60/build/windows/flutter_fundamental_chapter_51_60.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

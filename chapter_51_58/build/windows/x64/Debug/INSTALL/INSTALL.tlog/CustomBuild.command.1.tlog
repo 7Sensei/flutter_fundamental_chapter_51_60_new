@@ -1,0 +1,10 @@
+^C:\USERS\ADMINISTRATOR\DOCUMENTS\CODE\VSCODE\DART\FLUTTER_FUNDAMENTAL_CHAPTER_51_60\BUILD\WINDOWS\CMAKEFILES\B683F0377CDBA9FEF6B839552060D247\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

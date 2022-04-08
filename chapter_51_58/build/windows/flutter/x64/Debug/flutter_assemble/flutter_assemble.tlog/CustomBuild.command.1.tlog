@@ -1,0 +1,28 @@
+^C:\USERS\ADMINISTRATOR\DOCUMENTS\CODE\VSCODE\DART\FLUTTER_FUNDAMENTAL_CHAPTER_51_60\BUILD\WINDOWS\CMAKEFILES\0F3659014905AFEB47C838D419DBC62A\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\Administrator\Documents\Code\VScode\Dart\flutter_fundamental_chapter_51_60 FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Administrator\Documents\Code\VScode\Dart\flutter_fundamental_chapter_51_60\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Administrator\Documents\Code\VScode\Dart\flutter_fundamental_chapter_51_60 FLUTTER_TARGET=C:\Users\Administrator\Documents\Code\VScode\Dart\flutter_fundamental_chapter_51_60\lib\2_listview_bulder_+_bloc.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Administrator\Documents\Code\VScode\Dart\flutter_fundamental_chapter_51_60\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\DOCUMENTS\CODE\VSCODE\DART\FLUTTER_FUNDAMENTAL_CHAPTER_51_60\BUILD\WINDOWS\CMAKEFILES\69E50AF4CE011BF6201B46CB996C4884\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\DOCUMENTS\CODE\VSCODE\DART\FLUTTER_FUNDAMENTAL_CHAPTER_51_60\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/Documents/Code/VScode/Dart/flutter_fundamental_chapter_51_60/windows -BC:/Users/Administrator/Documents/Code/VScode/Dart/flutter_fundamental_chapter_51_60/build/windows --check-stamp-file C:/Users/Administrator/Documents/Code/VScode/Dart/flutter_fundamental_chapter_51_60/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
